@@ -1,0 +1,55 @@
+{
+  "pendulum": {
+    "description": "Simple harmonic motion of a pendulum",
+    "formulas": [
+      "T = 2\u03c0\u221a(L/g)",
+      "f = 1/T"
+    ],
+    "examples": [
+      "A pendulum with length 2m has period 2.84s"
+    ],
+    "confidence": 0.9,
+    "usage_count": 0,
+    "last_updated": "2025-06-22T22:32:25.344997"
+  },
+  "projectile_motion": {
+    "description": "Motion of objects under gravity",
+    "formulas": [
+      "R = v\u2080\u00b2sin(2\u03b8)/g",
+      "h = v\u2080\u00b2sin\u00b2(\u03b8)/(2g)"
+    ],
+    "examples": [
+      "A ball thrown at 20m/s at 45\u00b0 has range 40.8m"
+    ],
+    "confidence": 0.9,
+    "usage_count": 0,
+    "last_updated": "2025-06-22T22:32:25.345015"
+  },
+  "collision": {
+    "description": "Conservation of momentum in collisions",
+    "formulas": [
+      "m\u2081v\u2081 + m\u2082v\u2082 = m\u2081v\u2081' + m\u2082v\u2082'",
+      "KE = \u00bdmv\u00b2"
+    ],
+    "examples": [
+      "Elastic collision between equal masses"
+    ],
+    "confidence": 0.9,
+    "usage_count": 0,
+    "last_updated": "2025-06-22T22:32:25.345019"
+  },
+  "free_fall": {
+    "description": "Motion under constant gravitational acceleration",
+    "formulas": [
+      "v = v\u2080 + gt",
+      "h = v\u2080t + \u00bdgt\u00b2",
+      "v\u00b2 = v\u2080\u00b2 + 2gh"
+    ],
+    "examples": [
+      "Object falling from 10m reaches 14m/s"
+    ],
+    "confidence": 0.9,
+    "usage_count": 0,
+    "last_updated": "2025-06-22T22:32:25.345023"
+  }
+}

@@ -1,0 +1,65 @@
+
+{
+    "kinematics": {
+      "equations": {
+        "velocity": "v = u + at",
+        "displacement": "s = ut + 0.5at²",
+        "velocity_displacement": "v² = u² + 2as"
+      },
+      "constants": {
+        "gravity": 9.81,
+        "gravity_units": "m/s²"
+      },
+      "common_problems": [
+        "free_fall",
+        "projectile_motion",
+        "uniform_acceleration"
+      ]
+    },
+    "dynamics": {
+      "equations": {
+        "force": "F = ma",
+        "momentum": "p = mv",
+        "impulse": "J = FΔt = Δp"
+      },
+      "common_problems": [
+        "force_analysis",
+        "collision",
+        "friction"
+      ]
+    },
+    "energy": {
+      "equations": {
+        "kinetic_energy": "KE = 0.5mv²",
+        "potential_energy": "PE = mgh",
+        "conservation": "KE₁ + PE₁ = KE₂ + PE₂"
+      },
+      "common_problems": [
+        "energy_conservation",
+        "work_energy_theorem"
+      ]
+    },
+    "oscillations": {
+      "equations": {
+        "pendulum_period": "T = 2π√(L/g)",
+        "spring_period": "T = 2π√(m/k)",
+        "frequency": "f = 1/T"
+      },
+      "common_problems": [
+        "simple_pendulum",
+        "spring_oscillator",
+        "damped_oscillations"
+      ]
+    },
+    "waves": {
+      "equations": {
+        "wave_speed": "v = fλ",
+        "wave_equation": "y = A sin(kx - ωt)"
+      },
+      "common_problems": [
+        "wave_interference",
+        "standing_waves",
+        "doppler_effect"
+      ]
+    }
+  }

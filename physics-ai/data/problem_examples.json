@@ -1,0 +1,62 @@
+{
+    "free_fall": [
+      {
+        "problem": "A ball is dropped from 20m height. What is its final velocity?",
+        "solution": "19.8 m/s",
+        "method": "kinematics",
+        "steps": [
+          "Given: h = 20m, u = 0 m/s, g = 9.81 m/s²",
+          "Use: v² = u² + 2gh",
+          "v² = 0² + 2(9.81)(20) = 392.4",
+          "v = √392.4 = 19.8 m/s"
+        ]
+      },
+      {
+        "problem": "An object falls for 3 seconds. How far does it travel?",
+        "solution": "44.1 m",
+        "method": "kinematics",
+        "steps": [
+          "Given: t = 3s, u = 0 m/s, g = 9.81 m/s²",
+          "Use: s = ut + 0.5gt²",
+          "s = 0(3) + 0.5(9.81)(3²) = 44.1 m"
+        ]
+      }
+    ],
+    "projectile_motion": [
+      {
+        "problem": "A ball is thrown at 45° with velocity 20 m/s. Find the range.",
+        "solution": "40.8 m",
+        "method": "kinematics",
+        "steps": [
+          "Given: v₀ = 20 m/s, θ = 45°, g = 9.81 m/s²",
+          "Range formula: R = v₀²sin(2θ)/g",
+          "R = (20²)sin(90°)/9.81 = 400/9.81 = 40.8 m"
+        ]
+      }
+    ],
+    "pendulum": [
+      {
+        "problem": "A pendulum has length 1.5m. What is its period?",
+        "solution": "2.45 s",
+        "method": "oscillations",
+        "steps": [
+          "Given: L = 1.5m, g = 9.81 m/s²",
+          "Period formula: T = 2π√(L/g)",
+          "T = 2π√(1.5/9.81) = 2π√0.153 = 2.45 s"
+        ]
+      }
+    ],
+    "collision": [
+      {
+        "problem": "Ball A (2kg, 5m/s) hits stationary Ball B (3kg). Find final velocities for elastic collision.",
+        "solution": "vₐ = -1.0 m/s, vᵦ = 4.0 m/s",
+        "method": "momentum_conservation",
+        "steps": [
+          "Given: mₐ = 2kg, uₐ = 5m/s, mᵦ = 3kg, uᵦ = 0m/s",
+          "Elastic collision formulas:",
+          "vₐ = ((mₐ-mᵦ)uₐ + 2mᵦuᵦ)/(mₐ+mᵦ) = (2-3)(5)/(2+3) = -1.0 m/s",
+          "vᵦ = ((mᵦ-mₐ)uᵦ + 2mₐuₐ)/(mₐ+mᵦ) = 2(2)(5)/(2+3) = 4.0 m/s"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,42 @@
+{
+  "analytical_approach": {
+    "description": "Use mathematical analysis and formulas",
+    "success_rate": 0.9,
+    "examples": [
+      "pendulum period calculation",
+      "projectile motion analysis"
+    ],
+    "usage_count": 0,
+    "last_updated": "2025-06-22T22:32:25.572580"
+  },
+  "energy_conservation": {
+    "description": "Apply conservation of energy principles",
+    "success_rate": 0.85,
+    "examples": [
+      "free fall problems",
+      "pendulum energy analysis"
+    ],
+    "usage_count": 0,
+    "last_updated": "2025-06-22T22:32:25.572948"
+  },
+  "momentum_conservation": {
+    "description": "Apply conservation of momentum",
+    "success_rate": 0.9,
+    "examples": [
+      "collision problems",
+      "explosion scenarios"
+    ],
+    "usage_count": 0,
+    "last_updated": "2025-06-22T22:32:25.573121"
+  },
+  "dimensional_analysis": {
+    "description": "Use dimensional analysis for verification",
+    "success_rate": 0.8,
+    "examples": [
+      "formula verification",
+      "unit checking"
+    ],
+    "usage_count": 0,
+    "last_updated": "2025-06-22T22:32:25.573273"
+  }
+}

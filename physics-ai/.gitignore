@@ -1,0 +1,16 @@
+# .gitignore
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+.vscode/
+*.log
+temp/
+*.egg-info/
+dist/
+build/
